@@ -14,7 +14,7 @@ This is where the JIRA-MySQL Vagrantfile comes in handy.
 
 Since this is a git repo, it's best to pull it down via git:
 
-```git clone https://github.com/jelyman2/vagrant-jira-mysql && vagrant up```
+```git clone https://github.com/jinpeng/vagrant-jira-mysql && vagrant up```
 
 I've tested this deployment on both Windows and OS X. I expect Linux to be the same.
 
@@ -22,13 +22,13 @@ I've tested this deployment on both Windows and OS X. I expect Linux to be the s
 
 The Vagrantfile included in this repo will:
 
-- Download Atlassian JIRA `6.4.10 x64` for Linux (`.bin`)
+- Download Atlassian JIRA `7.1.2 x64` for Linux (`.bin`)
 - Install MySQL the latest branch of MySQL attached to the `mysql-server` tag in the pre-configured repo list.
 - Auto-install JIRA using a varfile. Said file is included.
 
 ## The Technical Stuff
 
-- JIRA: version `6.4.10 x64`
+- JIRA: version `7.1.2 x64`
 - MySQL: Latest
 - Ports (internal/external): `8080:8080`
 - The manual step of installing the JDBC driver for MySQL is included.
